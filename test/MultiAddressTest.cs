@@ -161,6 +161,7 @@ namespace Ipfs
                 "/ip4/127.0.0.0/ipcidr/16",
                 "/p2p/QmNnooDu7bfjPFoTZYxMNLWUQJyrVwtbZg5gBMjTezGAJN",
                 "/ip4/127.0.0.1/udp/4023/quic",
+                "/ip4/127.0.0.1/tcp/443/tls",
             };
             foreach (var a in addresses)
             {
