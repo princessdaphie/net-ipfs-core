@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.0;</TargetFrameworks>
+        <TargetFrameworks>netstandard2.0</TargetFrameworks>
+        <TargetFramework>netstandard2.0</TargetFramework>
         <AssemblyName>IpfsShipyard.Ipfs.Core</AssemblyName>
         <RootNamespace>Ipfs</RootNamespace>
         <DebugType>portable</DebugType>
@@ -91,7 +92,7 @@ Added missing IFileSystemApi.ListAsync. Doesn't fully replace the removed IFileS
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Google.Protobuf" Version="3.26.1" />
+        <PackageReference Include="Google.Protobuf" Version="3.31.1" />
         <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" />
         <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
         <PackageReference Include="PolySharp" Version="1.14.1">
