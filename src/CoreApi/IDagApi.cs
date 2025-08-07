@@ -244,8 +244,13 @@ namespace Ipfs.CoreApi
         /// Default: true. Required: no.
         /// </param>
         /// <param name="stats">Output stats. Required: no.</param>
+        /// <param name="allowBigBlock">
+        ///   Disable block size check and allow creation of blocks bigger than 1MiB. Default is <b>false</b>. Required: No.
+        ///   <para/>
+        ///   WARNING: such blocks won't be transferable over the standard bitswap.
+        /// </param>
         /// <param name="cancellationToken">A token that can be used to cancel the ongoing operation.</param>
         /// <returns></returns>
-        Task<CarImportOutput> ImportAsync(Stream stream, bool? pinRoots = null, bool stats = false, CancellationToken cancellationToken = default);
+        Task<CarImportOutput> ImportAsync(Stream stream, bool? pinRoots = null, bool stats = false, bool allowBigBlock = false, CancellationToken cancellationToken = default);
     }
 }
