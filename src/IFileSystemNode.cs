@@ -17,6 +17,6 @@
         /// <summary>
         ///   The file name of the IPFS node.
         /// </summary>
-        public string Name { get; }
+        string Name { get; }
     }
 }
