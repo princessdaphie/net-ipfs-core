@@ -94,7 +94,7 @@ Added missing IFileSystemApi.ListAsync. Doesn't fully replace the removed IFileS
     <ItemGroup>
         <PackageReference Include="Google.Protobuf" Version="3.31.1" />
         <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" />
-        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
         <PackageReference Include="PolySharp" Version="1.14.1">
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
